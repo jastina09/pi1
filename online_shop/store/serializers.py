@@ -56,6 +56,7 @@ class UserProfileSimpleSerializer(serializers.ModelSerializer):
         fields = ['first_name']
 
 
+
 class CategoryListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
